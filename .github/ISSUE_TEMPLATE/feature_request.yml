@@ -1,0 +1,24 @@
+name: Feature or product proposal
+description: Suggest a product capability or improvement.
+title: "[Proposal]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user need or learning outcome does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Security, privacy, accessibility and operational considerations
+    validations:
+      required: false
